@@ -1,0 +1,5 @@
+- name: Deploy App to Kubernetes
+  hosts: localhost
+  tasks:
+    - name: Apply Kubernetes Deployment
+      command: kubectl apply -f deployment.yaml
